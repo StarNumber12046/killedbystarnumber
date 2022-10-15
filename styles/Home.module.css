@@ -22,9 +22,14 @@
 
 .wrapper {
   padding: 2px;
-
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .main {
@@ -104,6 +109,8 @@
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
 }
+
+
 
 .card:hover,
 .card:focus,
