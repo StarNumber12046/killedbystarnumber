@@ -9,11 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@octokit/rest": "^19.0.5",
+    "@octokit/rest": "^21.1.1",
     "dotenv": "^16.0.3",
     "fs": "^0.0.1-security",
     "next": "14.2.25",
-    "octokit": "^2.0.8",
+    "octokit": "^4.1.2",
     "octokit-fetch-all-repos": "^1.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
